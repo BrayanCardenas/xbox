@@ -16,11 +16,21 @@ function Header() {
 
         <nav className="Header-nav Nav">
           <ul className="Nav-ul">
-            <li className="Nav-li">Game Pass</li>
-            <li className="Nav-li">Juegos</li>
-            <li className="Nav-li">Dispositivos</li>
-            <li className="Nav-li">Comunidad</li>
-            <li className="Nav-li">Más</li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Game Pass</button>
+            </li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Juegos</button>
+            </li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Dispositivos</button>
+            </li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Comunidad</button>
+            </li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Más</button>
+            </li>
           </ul>
         </nav>
       </div>
@@ -28,10 +38,12 @@ function Header() {
       <div className="Header-container">
         <nav className="Header-nav Nav">
           <ul className="Nav-ul">
-            <li className="Nav-li" >Todo Microsoft</li>
-            <li className="Nav-li" >Buscar</li>
-            <li className="Nav-li" >Carro</li>
-            <li className="Nav-li" >Iniciar Sesión</li>
+            <li className="Nav-li">
+              <button className="Nav-icon">Todo Microsoft</button>
+            </li>
+            <li className="Nav-li">Buscar</li>
+            <li className="Nav-li">Carro</li>
+            <li className="Nav-li">Iniciar Sesión </li>
           </ul>
         </nav>
       </div>

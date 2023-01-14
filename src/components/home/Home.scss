@@ -1,0 +1,27 @@
+.Contenido {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 5em;
+  &-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    width: 55em;
+    gap: 4.2em;
+  }
+  &-li {
+    width: max-content;
+  }
+  &-img{
+    height: 3.5em;
+    object-fit: contain;
+  }
+  &-span{
+    display: block;
+    width: max-content;
+    font-weight: 600;
+    color: var(--verde);  
+  }
+}
