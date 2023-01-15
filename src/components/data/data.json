@@ -1,0 +1,93 @@
+[
+  {
+    "name": "ONE PIECE ODYSSEY",
+    "description": "Las aventuras nunca se olvidan",
+    "button": "CONSÍGUELO AHORA ",
+    "type": "full",
+    "url": "https://assets.xboxservices.com/assets/69/c1/69c1a855-a814-419a-a567-c2c870301ba8.jpg?n=One-Piece-Odyssey_Large-tout-0_1083x1222.jpg"
+  },
+  {
+    "name": "Descubre tu siguiente juego favorito",
+    "description": "Disfruta de cientos de juegos de alta calidad con amigos en consola y PC.",
+    "button": "ÚNETE AHORA ",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/4d/99/4d9918f2-950d-4d90-83c3-e6e9bc429e35.jpg?n=XGP-2022_Small-tout-1084_08-11-22_475x534.jpg"
+  },
+  {
+    "name": "Entra en un mundo surrealista",
+    "description": "Eleva tu juego con el nuevo Control inalámbrico Xbox – Lunar Shift Special Edition",
+    "button": "VER MÁS INFORMACIÓN",
+    "type": "full",
+    "url": "https://assets.xboxservices.com/assets/fc/17/fc173a3f-f187-44ad-bb0e-5e7e5c65b50f.jpg?n=999644_Accessory_Large-tout-0_1083x1222.jpg"
+  },
+  {
+    "name": "Developer_Direct es hospedado por Xbox y Bethesda",
+    "description": "Únete el 25 de enero a las 12:00 p. m. PT para escuchar directamente a los desarrolladores",
+    "button": "VER MÁS INFORMACIÓN",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/c7/4c/c74c0664-9b42-4eb5-b3b3-a8498e4cf822.jpg?n=365297_Small-tout-1084_475x534_02.jpg"
+  },
+  {
+    "name": "NBA 2K23",
+    "description": "Temporada 4 disponible ahora. Llamada a Superstars y All-Stars.",
+    "button": "CONSÍGUELO AHORA ",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/24/f4/24f409cc-2029-4325-8457-2ceff5349b31.jpg?n=NBA-2K23_Small-tout-1084_Season-4_475x534_01.jpg"
+  },
+  {
+    "name": "STAR WARS Jedi: Survivor™",
+    "description": "Plántale cara a la oscuridad",
+    "button": "RESERVAR",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/21/6f/216f4379-8306-4700-b6d1-77858dfe960d.jpg?n=9567542_Small-tout-1084_475x534_02.jpg"
+  },
+  {
+    "name": "ELDEN RING",
+    "description": "",
+    "button": "CONSÍGUELO AHORA",
+    "type": "full",
+    "url": "https://assets.xboxservices.com/assets/af/be/afbe8dcf-0efc-4e0c-9869-246bf71ab867.jpg?n=Elden-Ring_Home-Hero-1084_1904x805_01.jpg"
+  },
+  {
+    "name": "Diablo IV",
+    "description": "Reserva cualquier edición digital y consigue un acceso anticipado a la Beta abierta",
+    "button": "RESERVAR ",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/64/57/64570578-ac29-42ba-9bd2-e5103a4e236c.jpg?n=Diablo-IV_Small-tout-1084_475x534.jpg"
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "description": "Acepta el desafío y únete a la casería",
+    "button": "VER MÁS INFORMACIÓN",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/3d/84/3d84fd4b-51f0-4808-903f-b2085d1bc821.jpg?n=75295231_Small-tout-1084_475x534.jpg"
+  },
+  {
+    "name": "Riot Games ahora está en Game Pass",
+    "description": "Juega a títulos legendarios de Riot Games con beneficios premium para los miembros de Game Pass.",
+    "button": "MÁS INFORMACIÓN ",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/86/8e/868e3a27-f0cc-449c-b28b-a8538e99645a.jpg?n=Riot-Games_Small-tout-1084_475x534.jpg"
+  },
+  {
+    "name": "Persona 3 Portable y Persona 4 Golden",
+    "description": "Resuelve misterios y derrota a Sombras en dos juegos de rol icónicos",
+    "button": "RESERVAR ",
+    "type": "full",
+    "url": "https://assets.xboxservices.com/assets/d5/ce/d5ce26a0-6a8c-4e86-a827-ca51d4fa2242.jpg?n=Persona-Franchise_Large-tout-0_1083x1222_02.jpg"
+  },
+  {
+    "name": "Street Fighter 6",
+    "description": "Tu momento. Tu lucha.",
+    "button": "RESERVAR ",
+    "type": "full",
+    "url": "https://assets.xboxservices.com/assets/c0/81/c081129f-85e2-45f7-bd5c-9477abe54732.jpg?n=543216_Large-tout-0_1083x1222.jpg"
+  },
+  {
+    "name": "Minecraft",
+    "description": "Obtén el juego más el contenido de bonificación con Minecraft: Colección Deluxe",
+    "button": "CONSÍGUELO AHORA",
+    "type": "medium",
+    "url": "https://assets.xboxservices.com/assets/e0/8b/e08b83d5-3571-4705-89da-cd58dbff3c9d.jpg?n=Minecraft_Small-tout-1084_Deluxe-Edition_475x534_01.jpg"
+  }
+]
