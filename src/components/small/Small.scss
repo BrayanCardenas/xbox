@@ -1,0 +1,56 @@
+.Info {
+  display: flex;
+  background: var(--verde);
+  color: rgb(255, 255, 255);
+  &-noColor {
+    background: transparent;
+    color: black;
+  }
+  &-div {
+    width: 50%;
+    overflow: hidden;
+  }
+  &-div--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 2.5em;
+  }
+  &-h2 {
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+  &-p {
+    font-size: 0.9em;
+  }
+  &-a {
+    font-weight: 800;
+    font-size: 0.95em;
+  }
+  &-img {
+    object-fit: cover;
+    height: 23.71em;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  &-img:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 1083px) {
+  .Info {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    &-div {
+      width: 100%;
+      // height: 40em;
+    }
+    &-img{
+      height: 100%;
+    }
+  }
+}

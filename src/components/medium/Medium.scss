@@ -1,0 +1,26 @@
+.relative {
+  position: relative;
+  &-h2 {
+    display: flex;
+    font-size: 2.75em;
+    font-weight: 800;
+  }
+  &-p {
+    margin: 1.72em 0;
+    font-size: 1.2em;
+  }
+  &-a {
+    font-size: .95em;
+    font-weight: 800;
+  }
+}
+.absolute {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5.25em;
+  left: 2.5em;
+  // height: 30%;
+  // width: 50%;
+  // margin: -15% 0 0 -25%;
+}

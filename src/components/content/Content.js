@@ -1,50 +1,33 @@
-import Data from "../data/data.json";
+import data from "../../data/data.json";
+import Medium from "../medium/Medium";
+import Small from "../small/Small";
 import "./Content.scss";
 function Content() {
+  const { contenido } = data[0];
+
   return (
     <div className="Content">
       <ul className="Content-ul">
-        {Data.map(({ name, description, button, url, type }, i) => {
-          if (type === "full") {
-            return (
-              <li key={url} className={`Content-li${i + 1} relative`}>
-                <div className="absolute">
-                  <h2 className="relative-h2" >{name}</h2>
-                  <p className="relative-p" >{description}</p>
-                  <a  className="relative-a" href="##">{button}</a>
-                </div>
-                <div className="">
-                  <img className="" type={type} src={url} alt="" />
-                </div>
-              </li>
-            );
-          }
-          return (
-            <li
+        {contenido.map(({ name, description, button, url, url2, type }, i) => {
+          return type !== "small" ? (
+            <Medium
               key={url}
-              className={
-                i !== 12 && i !== 9
-                  ? `Content-li${i + 1} Content-info Info`
-                  : `Content-li${i + 1} Content-info Info Content-info--noColor`
-              }
-            >
-              <div className="Info-div Info-div--text">
-                <h2 className="Info-h2">{name}</h2>
-                <p className="Info-p">{description}</p>
-                <a className="Info-a" href="##">
-                  {button}
-                </a>
-              </div>
-              <div
-                className={
-                  i === 9
-                    ? "Info-div Info-div--img"
-                    : "Info-div Info-div--img a"
-                }
-              >
-                <img className="Info-img" type={type} src={url} alt="" />
-              </div>
-            </li>
+              name={name}
+              url={url}
+              button={button}
+              description={description}
+              i={i}
+            />
+          ) : (
+            <Small
+              key={url}
+              name={name}
+              url={url}
+              url2={url2}
+              button={button}
+              description={description}
+              i={i}
+            />
           );
         })}
       </ul>
