@@ -7,6 +7,7 @@
   font-size: 0.68em;
   &-ul {
     display: flex;
+    flex-wrap: wrap;
   }
   &-li {
     display: flex;
@@ -37,5 +38,43 @@
   &-ul {
     display: flex;
     gap: 2.3em;
+  }
+}
+
+@media screen and (max-width: 1083px) {
+  .Footer {
+    gap: 0;
+    padding: 2.8em 2.5em;
+    &-ul {
+      padding: 0.5em 0;
+    }
+    &-li {
+      padding-bottom: 4em;
+      width: 33.33333%;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  .Info {
+    &-locale {
+      display: flex;
+      gap: 0.5em;
+      align-items: center;
+    }
+    &-ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+  }
+}
+@media screen and (max-width: 526px) {
+  .Footer {
+    &-li {
+      width: 100%;
+    }
   }
 }

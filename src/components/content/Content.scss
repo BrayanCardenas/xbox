@@ -50,7 +50,14 @@
     object-fit: contain;
   }
 }
-
+.rrss{
+  display: flex;
+  padding: 1.7em 4em;
+  gap: 1em;
+  img{
+    width: 1.8em;
+  }
+}
 @media screen and (max-width: 1083px) {
   .Content {
     &-ul {
