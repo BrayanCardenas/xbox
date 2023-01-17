@@ -4,7 +4,7 @@
   align-items: center;
   padding: 0 5.3em;
   font-size: 0.8em;
-  &-container {
+  &-menu {
     display: flex;
     align-items: center;
   }
@@ -36,12 +36,18 @@ svg{
   width: 2em;
   fill: none;
 }
+.button{
+  display: none;
+}
 @media screen and (max-width: 859px) {
+  .button{
+    display: block;
+  }
   .Header {
     flex-direction: column;
     align-items: flex-start;
     padding: 1em 1em 0;
-    &-container {
+    &-menu {
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
@@ -62,6 +68,12 @@ svg{
     &-ul{
       flex-direction: column;
       align-items: flex-start;
+    }
+  }
+  .Menu{
+    display: none;
+    &.open {
+      display: block;
     }
   }
 }
