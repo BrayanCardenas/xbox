@@ -25,12 +25,15 @@
     align-items: center;
   }
   &-li {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 1.2rem 0.6rem;
     width: max-content;
-    padding: 1.2rem 0.7rem;
   }
-  &-icon::after {
-    content: "›";
-    display: inline;
-    padding-left: 0.5em;
-  }
+}
+svg{
+  width: 2em;
+  fill: none;
+
 }

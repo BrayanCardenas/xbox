@@ -1,0 +1,41 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5em;
+  background: #f0f0f0;
+  padding: 2.8em 6.5em;
+  font-size: 0.68em;
+  &-ul {
+    display: flex;
+  }
+  &-li {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 16.6666666667%;
+  }
+  &-h3 {
+    font-size: 1.4em;
+    font-weight: 800;
+  }
+  &-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  &-img {
+    width: 2em;
+  }
+}
+.Info {
+  &-locale {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+  }
+  &-ul {
+    display: flex;
+    gap: 2.3em;
+  }
+}

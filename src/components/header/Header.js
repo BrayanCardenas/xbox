@@ -18,18 +18,78 @@ function Header() {
           <ul className="Nav-ul">
             <li className="Nav-li">
               <button className="Nav-icon">Game Pass</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>
             </li>
             <li className="Nav-li">
               <button className="Nav-icon">Juegos</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>
             </li>
             <li className="Nav-li">
               <button className="Nav-icon">Dispositivos</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>{" "}
             </li>
             <li className="Nav-li">
               <button className="Nav-icon">Comunidad</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>{" "}
             </li>
             <li className="Nav-li">
               <button className="Nav-icon">Más</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>
             </li>
           </ul>
         </nav>
@@ -40,6 +100,18 @@ function Header() {
           <ul className="Nav-ul">
             <li className="Nav-li">
               <button className="Nav-icon">Todo Microsoft</button>
+              <svg
+                width={25}
+                height={25}
+                fill="none"
+                stroke="#262626"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                viewBox="0 0 24 24"
+              >
+                <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
+              </svg>{" "}
             </li>
             <li className="Nav-li">Buscar</li>
             <li className="Nav-li">Carro</li>
