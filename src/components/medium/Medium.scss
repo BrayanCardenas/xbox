@@ -1,4 +1,4 @@
-.relative {
+.Li {
   position: relative;
   &-h2 {
     display: flex;
@@ -10,17 +10,46 @@
     font-size: 1.2em;
   }
   &-a {
-    font-size: .95em;
+    font-size: 0.95em;
     font-weight: 800;
   }
+  &-absolute {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5.25em;
+    left: 2.5em;
+  }
 }
-.absolute {
-  color: white;
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 5.25em;
-  left: 2.5em;
-  // height: 30%;
-  // width: 50%;
-  // margin: -15% 0 0 -25%;
+
+@media screen and (max-width: 1083px) {
+  .Li {
+    position: static;
+    display: flex;
+    flex-direction: column-reverse;
+    background: #333;
+    &-h2 {
+      font-size: 1.2em;
+    }
+    &-p {
+      font-size: 0.9em;
+    }
+    &-a {
+      font-size: 0.95em;
+    }
+    &-absolute {
+      position: static;
+      margin-bottom: 0;
+      padding: 2.5em;
+    }
+    &-div{
+      max-height: 64vw;
+      overflow: hidden;
+    }
+    &-img{
+      width: 100%;
+      height: auto;
+      object-fit: fill;
+    }
+  }
 }
