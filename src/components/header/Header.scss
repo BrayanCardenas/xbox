@@ -35,5 +35,33 @@
 svg{
   width: 2em;
   fill: none;
-
+}
+@media screen and (max-width: 859px) {
+  .Header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em 1em 0;
+    &-container {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    &-img{
+      padding: 0em 1em;
+    height: 2em;
+    object-fit: contain;
+    }
+    &-img--xbox {
+      padding: 0;
+      border: 0;
+      margin-top: 1em;
+      object-position: left;
+    }
+  }
+  .Nav{
+    &-ul{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
 }

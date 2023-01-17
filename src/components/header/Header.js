@@ -1,5 +1,7 @@
+import { useState } from "react";
 import "./Header.scss";
 function Header() {
+  // const [menu, setMenu] = useState(false)
   return (
     <header className="Header">
       <div className="Header-container">
