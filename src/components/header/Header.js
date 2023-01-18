@@ -35,7 +35,7 @@ function Header() {
       </div>
 
       {/* Menu */}
-      <div className={`Menu ${menu ? "open" : "".trim()}`}>
+      <div className={`Header-cont Menu ${menu ? "open" : "".trim()}`}>
         <div className="Header-menu">
           <img
             className="Header-img Header-img--xbox"

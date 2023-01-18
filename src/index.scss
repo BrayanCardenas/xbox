@@ -10,15 +10,15 @@
 }
 /* (Opcional) Las adaptamos al modo oscuro */
 @media (prefers-color-scheme: dark) {
-  :root {
-    // --negro: #ececec;
-  }
+  // :root {
+  //   --negro: #ececec;
+  // }
 }
 
 /* (Opcional) Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 @media (prefers-contrast: high) {
-  :root {
-  }
+  // :root {
+  // }
 }
 
 /* (Opcional) Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
