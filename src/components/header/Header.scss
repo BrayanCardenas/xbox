@@ -32,15 +32,15 @@
     width: max-content;
   }
 }
-svg{
+svg {
   width: 2em;
   fill: none;
 }
-.button{
+.button {
   display: none;
 }
 @media screen and (max-width: 859px) {
-  .button{
+  .button {
     display: block;
   }
   .Header {
@@ -52,10 +52,10 @@ svg{
       align-items: flex-start;
       justify-content: flex-start;
     }
-    &-img{
+    &-img {
       padding: 0em 1em;
-    height: 2em;
-    object-fit: contain;
+      height: 2em;
+      object-fit: contain;
     }
     &-img--xbox {
       padding: 0;
@@ -63,14 +63,27 @@ svg{
       margin-top: 1em;
       object-position: left;
     }
+    &-icon {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 1em;
+      cursor: pointer;
+      img {
+        width: auto;
+      }
+      svg{
+        fill: inherit;
+      }
+    }
   }
-  .Nav{
-    &-ul{
+  .Nav {
+    &-ul {
       flex-direction: column;
       align-items: flex-start;
     }
   }
-  .Menu{
+  .Menu {
     display: none;
     &.open {
       display: block;

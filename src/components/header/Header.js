@@ -8,30 +8,32 @@ function Header() {
   console.log(menu);
   return (
     <header className="Header">
-      <div>
+      <div className="Header-icon">
         <img
           className="Header-img"
           src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
           alt=""
         />
-      </div>
-      <div
-        onClick={toggleMenu}
-        className={`button ${menu ? "open" : "".trim()}`}
-      >
-        <svg
-          width={25}
-          height={25}
-          fill="none"
-          stroke="#262626"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1}
-          viewBox="0 0 24 24"
+        <div
+          onClick={toggleMenu}
+          className={`button ${menu ? "open" : "".trim()}`}
         >
-          <path d="M15.25 10.75 12 14.25l-3.25-3.5" />
-        </svg>
+          <svg
+            height="32px"
+            id="Layer_1"
+            // style="enable-background:new 0 0 32 32;"
+            version="1.1"
+            viewBox="0 0 32 32"
+            width="32px"
+            // xml:space="preserve"
+            // xmlns="http://www.w3.org/2000/svg"
+            // xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+          </svg>
+        </div>
       </div>
+
       {/* Menu */}
       <div className={`Menu ${menu ? "open" : "".trim()}`}>
         <div className="Header-menu">
