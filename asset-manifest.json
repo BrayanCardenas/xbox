@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xbox/static/css/main.1e2db9ec.css",
+    "main.js": "/xbox/static/js/main.e568034f.js",
+    "static/js/787.a2d40d8f.chunk.js": "/xbox/static/js/787.a2d40d8f.chunk.js",
+    "index.html": "/xbox/index.html",
+    "main.1e2db9ec.css.map": "/xbox/static/css/main.1e2db9ec.css.map",
+    "main.e568034f.js.map": "/xbox/static/js/main.e568034f.js.map",
+    "787.a2d40d8f.chunk.js.map": "/xbox/static/js/787.a2d40d8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e2db9ec.css",
+    "static/js/main.e568034f.js"
+  ]
+}
